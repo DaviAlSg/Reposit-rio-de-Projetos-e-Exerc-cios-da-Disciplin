@@ -87,5 +87,75 @@ delay(1000);
 digitalWrite(ledPin3, LOW);
 }
 
+# Exercicio_em_Casa_1 : Ligar e desligar o LED com o botão (ao contrário)
 
+
+# Arduino feito no Tinkercard 
+
+![Editing Components (3)](https://github.com/user-attachments/assets/b570be43-491a-4eb8-8e1a-3634712707d8)
+
+
+
+
+# Código
+const int buttonPin = 2;
+const int ledPin = 13;
+
+
+// variables will change:
+int buttonState = 0;
+
+
+void setup() {
+  pinMode(ledPin, OUTPUT);
+  pinMode(buttonPin, INPUT);
+}
+
+
+void loop() {
+  buttonState = digitalRead(buttonPin);
+  if (buttonState == HIGH) {
+    digitalWrite(ledPin,HIGH);
+  } else {
+    digitalWrite(ledPin,LOW);
+  }
+}
+
+# Exercicio_em_Casa_2 :Contagem de pressionamentos de botão
+
+# Arduino feito no Tinkercard
+
+
+
+
+# Código
+const int buttonPin = 2;
+const int ledPin = LED_BUILTIN;
+int buttonPushCounter = 0;
+int buttonState = 0;
+int lastButtonState = 0;
+
+void setup() {
+  pinMode(buttonPin, INPUT);
+  pinMode(ledPin, OUTPUT);
+  Serial.begin(9600);
+}
+
+void loop() {
+  buttonState = digitalRead(buttonPin);
+
+  if (buttonState != lastButtonState) {
+    if (buttonState == HIGH) {
+      buttonPushCounter++;
+      Serial.println("on");
+      Serial.print("Number of button pushes: ");
+      Serial.println(buttonPushCounter);
+    } else {
+      Serial.println("off");
+    }
+    delay(50);
+  }
+
+  lastButtonState = buttonState;
+}
 
