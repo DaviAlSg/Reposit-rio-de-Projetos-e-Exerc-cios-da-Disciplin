@@ -1,13 +1,15 @@
 # Reposit-rio-de-Projetos-e-Exerc-cios-da-Disciplin
-
-
+-
+-
 # Exercicio_em_Sala_1 : Programa BLINK
-
+-
 # Arduino feito no Tinkercard
-
+-
 ![Editing Components](https://github.com/user-attachments/assets/88dcb5d4-65ef-4320-a103-3dbb5c528b6d)
 
 # Código
+-
+-
 void setup() {
 pinMode(LED_BUILTIN, OUTPUT);
 }
@@ -20,13 +22,14 @@ delay(1000);
 }
 
 # Exercicio_em_Sala_2 : Luzes de sinalização de Garagem
-
+-
+-
 # Arduino feito no Tinkercard
-
+-
 ![Editing Components (1)](https://github.com/user-attachments/assets/84e73e50-2e80-4ef0-bfe6-23a2306c3dea)
 
 # Código
-
+-
 const int ledPin1 = 13;
 const int ledPin2 = 9;
 
@@ -56,7 +59,8 @@ void loop() {
   }
 
 # Exercicio_em_Sala_3 : Luzes de sinalização de Garagem
-
+-
+-
 # Arduino feito no Tinkercard
 ![Editing Components (2)](https://github.com/user-attachments/assets/b25494d1-c90b-43ad-99ef-c5226afdf348)
 
@@ -87,16 +91,16 @@ delay(1000);
 digitalWrite(ledPin3, LOW);
 }
 
-# Exercicio_em_Casa_1 : Ligar e desligar o LED com o botão (ao contrário)
-
-
+# Exercicio_em_Casa_1 : Ligar e desligar o LED com o botão
+-
+-
 # Arduino feito no Tinkercard 
-
-![Editing Components (3)](https://github.com/user-attachments/assets/b570be43-491a-4eb8-8e1a-3634712707d8)
-
-
-
-
+-
+-
+![Editing Components (4)](https://github.com/user-attachments/assets/7684322d-1ef4-4af9-8665-ef2c84c41e1c)
+-
+-
+-
 # Código
 const int buttonPin = 2;
 const int ledPin = 13;
