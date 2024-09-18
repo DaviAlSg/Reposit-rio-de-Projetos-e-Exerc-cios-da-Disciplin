@@ -22,43 +22,11 @@ https://github.com/DaviAlSg/Exercicio_em_Casa_1-Ligar-e-desligar-o-LED-com-o-bot
 -
 -
 # Exercicio_em_Casa_2 :Contagem de pressionamentos de botão
-
-# Arduino feito no Tinkercard
-
-
-
-
-# Código
-const int buttonPin = 2;
-const int ledPin = LED_BUILTIN;
-int buttonPushCounter = 0;
-int buttonState = 0;
-int lastButtonState = 0;
-
-void setup() {
-  pinMode(buttonPin, INPUT);
-  pinMode(ledPin, OUTPUT);
-  Serial.begin(9600);
-}
-
-void loop() {
-  buttonState = digitalRead(buttonPin);
-
-  if (buttonState != lastButtonState) {
-    if (buttonState == HIGH) {
-      buttonPushCounter++;
-      Serial.println("on");
-      Serial.print("Number of button pushes: ");
-      Serial.println(buttonPushCounter);
-    } else {
-      Serial.println("off");
-    }
-    delay(50);
-  }
-
-  lastButtonState = buttonState;
-}
-
+-
+-
+https://github.com/DaviAlSg/Exercicio_em_Casa_2-Contagem-de-pressionamentos-de-bot-o/blob/main/README.md
+-
+-
 # Projeto_Final_de_Disciplina
 -
 -
