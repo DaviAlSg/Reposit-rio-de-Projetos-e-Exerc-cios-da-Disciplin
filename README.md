@@ -18,37 +18,9 @@ https://github.com/DaviAlSg/Exercicio_em_Sala_3-Luzes-de-sinaliza-o-de-Garagem/b
 # Exercicio_em_Casa_1 : Ligar e desligar o LED com o botão
 -
 -
-# Arduino feito no Tinkercard 
+https://github.com/DaviAlSg/Exercicio_em_Casa_1-Ligar-e-desligar-o-LED-com-o-bot-o/blob/main/README.md
 -
 -
-![Editing Components (4)](https://github.com/user-attachments/assets/7684322d-1ef4-4af9-8665-ef2c84c41e1c)
--
--
--
-# Código
-const int buttonPin = 2;
-const int ledPin = 13;
-
-
-// variables will change:
-int buttonState = 0;
-
-
-void setup() {
-  pinMode(ledPin, OUTPUT);
-  pinMode(buttonPin, INPUT);
-}
-
-
-void loop() {
-  buttonState = digitalRead(buttonPin);
-  if (buttonState == HIGH) {
-    digitalWrite(ledPin,HIGH);
-  } else {
-    digitalWrite(ledPin,LOW);
-  }
-}
-
 # Exercicio_em_Casa_2 :Contagem de pressionamentos de botão
 
 # Arduino feito no Tinkercard
