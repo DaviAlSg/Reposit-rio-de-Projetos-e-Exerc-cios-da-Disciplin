@@ -12,7 +12,6 @@ https://github.com/DaviAlSg/Exercicio_em_Sala_3-Luzes-de-sinaliza-o-de-Garagem/b
 # Exercicio_em_Casa_1 : Ligar e desligar o LED com o botão:
 https://github.com/DaviAlSg/Exercicio_em_Casa_1-Ligar-e-desligar-o-LED-com-o-bot-o/blob/main/README.md
 -
--
 # Exercicio_em_Casa_2 :Contagem de pressionamentos de botão:
 https://github.com/DaviAlSg/Exercicio_em_Casa_2-Contagem-de-pressionamentos-de-bot-o/blob/main/README.md
 -
