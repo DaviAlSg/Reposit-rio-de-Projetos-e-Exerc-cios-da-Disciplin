@@ -1,6 +1,6 @@
-# Repositrio de Projetos e Exercicios da Disciplina
+Repositrio de Projetos e Exercicios da Disciplina
 -
-# Exercicio_em_Sala_1 : Programa BLINK:
+[Exercicio_em_Sala_1 : Programa BLINK](https://github.com/DaviAlSg/Exercicio_em_Sala_1/tree/main)
 https://github.com/DaviAlSg/Exercicio_em_Sala_1/tree/main
 -
 # Exercicio_em_Sala_2 : Luzes de sinalização de Garagem
