@@ -4,7 +4,7 @@
 # Exercicio_em_Sala_1 : Programa BLINK:
 https://github.com/DaviAlSg/Exercicio_em_Sala_1/tree/main
 -
-# Exercicio_em_Sala_2 : Luzes de sinalização de Garagem:
+# [Exercicio_em_Sala_2 : Luzes de sinalização de Garagem] (https://github.com/DaviAlSg/Exercicio_em_Sala_2-Luzes-de-sinaliza-o-de-Garagem/blob/main/README.md)
 https://github.com/DaviAlSg/Exercicio_em_Sala_2-Luzes-de-sinaliza-o-de-Garagem/blob/main/README.md
 -
 # Exercicio_em_Sala_3 : Luzes de sinalização de Garagem:
