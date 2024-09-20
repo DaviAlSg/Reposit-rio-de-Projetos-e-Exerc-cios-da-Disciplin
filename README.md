@@ -1,4 +1,4 @@
-# Repositrio de Projetos e Exerccios da Disciplina
+# Repositrio de Projetos e Exercicios da Disciplina
 -
 -
 # Exercicio_em_Sala_1 : Programa BLINK
